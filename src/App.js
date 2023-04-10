@@ -1,12 +1,10 @@
-import Header from "./common/header.js";
-import Footer from "./common/footer.js";
+import Conetent from "./common/content.js";
+
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Footer></Footer>
+      <Conetent></Conetent>
     </div>
   );
 }
-
 export default App;
